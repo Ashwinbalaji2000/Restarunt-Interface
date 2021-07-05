@@ -35,3 +35,8 @@ body {
 .navbar-dark {
   background-color: #512da8;
 }
+.radio_btn {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
