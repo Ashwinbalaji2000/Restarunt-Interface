@@ -47,8 +47,31 @@ body {
       left: 0;
       min-height: 300px; }
 
+.radio_btn {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; }
+
 #carouselButton {
   right: 0px;
   position: absolute;
   bottom: 0px;
   z-index: 1; }
+
+#loginModal .modal-header {
+  background: #512da8;
+  color: floralwhite; }
+  #loginModal .modal-header .close {
+    color: floralwhite; }
+
+#loginModal .modal-body {
+  background: #d1c4e9; }
+
+#reserve .modal-header {
+  background: #512da8;
+  color: floralwhite; }
+  #reserve .modal-header .close {
+    color: floralwhite; }
+
+#reserve .modal-body {
+  background: #d1c4e9; }
